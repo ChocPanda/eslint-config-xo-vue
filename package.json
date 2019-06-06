@@ -6,5 +6,37 @@
   "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
   "author": "ChocPanda",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "commit": "git-cz",
+    "build": "rollup -c",
+    "test": "ava",
+    "test:unit": "ava",
+    "test:cov": "nyc ava && nyc report",
+    "test:report": "nyc ava --tap | tap-junit --output ./reports/ava --name test-results.xml",
+    "release": "semantic-release"
+  },
+  "files": [
+    "dist/**/*.js",
+    "**/*.md",
+    "dist/**/*.d.ts"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "ava": "^2.0.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "nyc": "^14.1.1",
+    "rollup": "^1.14.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "semantic-release": "^15.13.12"
+  }
 }
