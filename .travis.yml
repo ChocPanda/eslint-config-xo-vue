@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - lts/*
+  - node
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version version-number
+  - export PATH="$HOME/.yarn/bin:$PATH"
+stages:
+- name: test
+- name: report
+- name: release
+  if: (branch = master) AND NOT fork
+
+jobs:
+  include:
+    - env: TEST="yarn lint:test"
+      name: "Style Checks"
+      script: yarn lint:test
+    - env: TEST="test"
+      name: "Unit tests"
+      script: yarn test:unit
+    - stage: release
+      script: yarn release
+cache: yarn
