@@ -85,5 +85,7 @@
     "eslint": ">=5",
     "eslint-plugin-vue": ">=7.12.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "eslint-config-xo": "^0.26.0"
+  }
 }
