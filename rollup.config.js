@@ -16,7 +16,7 @@ const plugins = [
 
 export default [
 	{
-		input: 'src/index.js.js',
+		input: 'src/index.js',
 		output: {
 			file: 'dist/index.js',
 			format: 'cjs',

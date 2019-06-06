@@ -7,7 +7,7 @@ before_install:
   - export PATH="$HOME/.yarn/bin:$PATH"
 stages:
 - name: test
-- name: report
+- name: build
 - name: release
   if: (branch = master) AND NOT fork
 
@@ -19,6 +19,8 @@ jobs:
     - env: TEST="test"
       name: "Unit tests"
       script: yarn test:unit
+    - stage: build
+      script: yarn build
     - stage: release
       script: yarn release
 cache: yarn
