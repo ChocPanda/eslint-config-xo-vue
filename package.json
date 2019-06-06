@@ -21,6 +21,40 @@
     "**/*.md",
     "dist/**/*.d.ts"
   ],
+	"engines": {
+		"node": ">=6"
+	},
+	"keywords": [
+		"❤️",
+		"vue",
+		"vuejs",
+		"eslintconfig",
+		"xo",
+		"xoxo",
+		"hugs",
+		"kisses",
+		"happy",
+		"happiness",
+		"code",
+		"quality",
+		"style",
+		"lint",
+		"linter",
+		"jscs",
+		"jshint",
+		"jslint",
+		"eslint",
+		"validate",
+		"code style",
+		"standard",
+		"strict",
+		"check",
+		"checker",
+		"verify",
+		"enforce",
+		"hint",
+		"simple"
+	],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -38,5 +72,9 @@
     "rollup-plugin-license": "^0.8.1",
     "rollup-plugin-node-resolve": "^5.0.0",
     "semantic-release": "^15.13.12"
-  }
+  },
+	"peerDependencies": {
+		"eslint": ">=5",
+		"eslint-plugin-vue": ">=7.12.3"
+	}
 }
