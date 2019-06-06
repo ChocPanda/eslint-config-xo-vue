@@ -1,3 +1,3 @@
-const test = require('ava')
+const test = require('ava');
 
-test.todo('Write some tests')
+test.todo('Write some tests');

@@ -14,6 +14,10 @@
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
     "test:report": "nyc ava --tap | tap-junit --output ./reports/ava --name test-results.xml",
+    "lint": "xo",
+    "lint:test": "xo",
+    "lint:fix": "xo --fix",
+    "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
     "release": "echo \"Currently nothing to release\""
   },
   "files": [
@@ -21,40 +25,43 @@
     "**/*.md",
     "dist/**/*.d.ts"
   ],
-	"engines": {
-		"node": ">=6"
-	},
-	"keywords": [
-		"❤️",
-		"vue",
-		"vuejs",
-		"eslintconfig",
-		"xo",
-		"xoxo",
-		"hugs",
-		"kisses",
-		"happy",
-		"happiness",
-		"code",
-		"quality",
-		"style",
-		"lint",
-		"linter",
-		"jscs",
-		"jshint",
-		"jslint",
-		"eslint",
-		"validate",
-		"code style",
-		"standard",
-		"strict",
-		"check",
-		"checker",
-		"verify",
-		"enforce",
-		"hint",
-		"simple"
-	],
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "❤️",
+    "vue",
+    "vuejs",
+    "eslintconfig",
+    "xo",
+    "xoxo",
+    "hugs",
+    "kisses",
+    "happy",
+    "happiness",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "standard",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint",
+    "simple"
+  ],
+  "xo": {
+    "prettier": "true"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
@@ -71,10 +78,12 @@
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-license": "^0.8.1",
     "rollup-plugin-node-resolve": "^5.0.0",
-    "semantic-release": "^15.13.12"
+    "semantic-release": "^15.13.12",
+    "xo": "^0.24.0"
   },
-	"peerDependencies": {
-		"eslint": ">=5",
-		"eslint-plugin-vue": ">=7.12.3"
-	}
+  "peerDependencies": {
+    "eslint": ">=5",
+    "eslint-plugin-vue": ">=7.12.3"
+  },
+  "dependencies": {}
 }
