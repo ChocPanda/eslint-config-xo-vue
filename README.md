@@ -4,14 +4,14 @@
   <a href="https://travis-ci.com/ChocPanda/eslint-config-xo-vue" alt="Travis-CI">
     <img src="https://travis-ci.com/ChocPanda/eslint-config-xo-vue.svg?branch=master"/>
   </a>
-  <a href="https://david-dm.org/ChocPanda/mambda" alt="dependencies">
-    <img src="https://david-dm.org/ChocPanda/mambda.svg"/>
+  <a href="https://david-dm.org/ChocPanda/eslint-config-xo-vue" alt="dependencies">
+    <img src="https://david-dm.org/ChocPanda/eslint-config-xo-vue.svg"/>
   </a>
-  <a href="https://www.npmjs.com/package/mambda" alt="npm">
-    <img alt="npm" src="https://img.shields.io/npm/v/mambda.svg?label=npm%40latest&style=popout">
+  <a href="https://www.npmjs.com/package/eslint-config-xo-vue" alt="npm">
+    <img alt="npm" src="https://img.shields.io/npm/v/eslint-config-xo-vue.svg?label=npm%40latest&style=popout">
   </a>
-  <a href="https://github.com/ChocPanda/mambda/blob/master/LICENSE" alt="license">
-    <img src="https://img.shields.io/github/license/ChocPanda/mambda.svg?style=popout"/>
+  <a href="https://github.com/ChocPanda/eslint-config-xo-vue/blob/master/LICENSE" alt="license">
+    <img src="https://img.shields.io/github/license/ChocPanda/eslint-config-xo-vue.svg?style=popout"/>
   </a>
   <a href="https://github.com/xojs/xo" alt="XO code style">
     <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg"/>
@@ -23,7 +23,7 @@
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"/>
   </a>
   <a href="https://greenkeeper.io/" alt="Greenkeeper badge" >
-    <img src="https://badges.greenkeeper.io/ChocPanda/mambda.svg"/>
+    <img src="https://badges.greenkeeper.io/ChocPanda/eslint-config-xo-vue.svg"/>
   </a>
 </p>
 
