@@ -14,7 +14,7 @@
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
     "test:report": "nyc ava --tap | tap-junit --output ./reports/ava --name test-results.xml",
-    "release": "semantic-release"
+    "release": "echo \"Currently nothing to release\""
   },
   "files": [
     "dist/**/*.js",
