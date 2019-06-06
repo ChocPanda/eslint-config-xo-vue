@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-xo-vue",
+  "version": "0.0.1",
+  "description": "ESLint shareable config for Vue to be used with eslint-config-xo https://github.com/xojs/xo",
+  "main": "src/index.js",
+  "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
+  "author": "ChocPanda",
+  "license": "MIT",
+  "private": false
+}
