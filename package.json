@@ -18,7 +18,7 @@
     "lint:test": "xo",
     "lint:fix": "xo --fix",
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
-    "release": "echo \"Currently nothing to release\""
+    "release": "semantic-release"
   },
   "files": [
     "dist/**/*.js",
