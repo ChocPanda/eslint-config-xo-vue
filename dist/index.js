@@ -533,7 +533,7 @@ var eslintConfigXo = {
 
 const xoConfigRules = eslintConfigXo.rules;
 
-var src = {
+var base = indent => ({
 	parser: commonjsRequire.resolve('vue-eslint-parser'),
 	parserOptions: {
 		ecmaVersion: 2018,
@@ -580,7 +580,7 @@ var src = {
 		'vue/html-end-tags': ['error'],
 		'vue/html-indent': [
 			'error',
-			'tab',
+			indent,
 			{
 				attribute: 1,
 				baseIndent: 1,
@@ -708,7 +708,7 @@ var src = {
 		],
 		'vue/script-indent': [
 			'error',
-			'tab',
+			indent,
 			{
 				baseIndent: 1,
 				switchCase: 1
@@ -744,16 +744,8 @@ var src = {
 		'vue/valid-v-show': ['error'],
 		'vue/valid-v-text': ['error']
 	}
-};
-var src_1 = src.parser;
-var src_2 = src.parserOptions;
-var src_3 = src.env;
-var src_4 = src.plugins;
-var src_5 = src.rules;
+});
+
+var src = base('tab');
 
 exports.default = src;
-exports.env = src_3;
-exports.parser = src_1;
-exports.parserOptions = src_2;
-exports.plugins = src_4;
-exports.rules = src_5;

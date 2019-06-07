@@ -33,7 +33,6 @@ export default [
 			preferConst: true,
 			exports: 'named'
 		},
-		external: ['path'],
 		plugins
 	}
 ];
