@@ -124,34 +124,41 @@ module.exports = {
 		'vue/no-template-key': ['error'],
 		'vue/no-template-shadow': ['error'],
 		'vue/no-textarea-mustache': ['error'],
-		'vue/no-unused-components': ["error", {
-			"ignoreWhenBindingPresent": true
-		}],
+		'vue/no-unused-components': [
+			'error',
+			{
+				ignoreWhenBindingPresent: true
+			}
+		],
 		'vue/no-unused-vars': xoConfigRules['no-unused-vars'],
 		'vue/no-v-html': ['error'],
 		'vue/object-curly-spacing': xoConfigRules['object-curly-spacing'],
-		'vue/order-in-components': ['warning' { "order": [
-      "el",
-      "name",
-      "parent",
-      "functional",
-      ["delimiters", "comments"],
-      ["components", "directives", "filters"],
-      "extends",
-      "mixins",
-      "inheritAttrs",
-      "model",
-      ["props", "propsData"],
-      "data",
-      "computed",
-      "watch",
-      "LIFECYCLE_HOOKS",
-      "methods",
-      ["template", "render"],
-      "renderError"
-    ]
-  }],
-  "vue/prop-name-casing": ["error", "camelCase"],
+		'vue/order-in-components': [
+			'warning',
+			{
+				order: [
+					'el',
+					'name',
+					'parent',
+					'functional',
+					['delimiters', 'comments'],
+					['components', 'directives', 'filters'],
+					'extends',
+					'mixins',
+					'inheritAttrs',
+					'model',
+					['props', 'propsData'],
+					'data',
+					'computed',
+					'watch',
+					'LIFECYCLE_HOOKS',
+					'methods',
+					['template', 'render'],
+					'renderError'
+				]
+			}
+		],
+		'vue/prop-name-casing': ['error', 'camelCase'],
 		'vue/require-component-is': ['error'],
 		'vue/require-default-prop': ['error'],
 		'vue/require-direct-export': ['warn'],
@@ -160,18 +167,28 @@ module.exports = {
 		'vue/require-render-return': ['error'],
 		'vue/require-v-for-key': ['error'],
 		'vue/require-valid-default-prop': ['error'],
-		'vue/return-in-computed-property': ["error", {
-			"treatUndefinedAsUnspecified": true
-		}],
-		'vue/script-indent': ["error", "tab", {
-			"baseIndent": 1,
-			"switchCase": 1
-		}],
-		'vue/singleline-html-element-content-newline': ["error", {
-			"ignoreWhenNoAttributes": true,
-			"ignoreWhenEmpty": true,
-			"ignores": ["pre", "textarea"]
-		}],
+		'vue/return-in-computed-property': [
+			'error',
+			{
+				treatUndefinedAsUnspecified: true
+			}
+		],
+		'vue/script-indent': [
+			'error',
+			'tab',
+			{
+				baseIndent: 1,
+				switchCase: 1
+			}
+		],
+		'vue/singleline-html-element-content-newline': [
+			'error',
+			{
+				ignoreWhenNoAttributes: true,
+				ignoreWhenEmpty: true,
+				ignores: ['pre', 'textarea']
+			}
+		],
 		'vue/space-infix-ops': xoConfigRules['space-infix-ops'],
 		'vue/space-unary-ops': xoConfigRules['space-unary-ops'],
 		'vue/this-in-template': ['error', 'always'],
