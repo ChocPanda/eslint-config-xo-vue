@@ -12,13 +12,9 @@ const plugins = [
 		banner: {
 			file: path.join(__dirname, 'LICENSE')
 		}
-	}),	
+	}),
 	copy({
-		targets: [
-			'package.json',
-			'README.md',
-			'CHANGELOG.md'
-		],
+		targets: ['package.json', 'README.md', 'CHANGELOG.md'],
 		outputFolder: 'dist'
 	})
 ];
