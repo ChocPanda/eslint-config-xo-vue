@@ -13,7 +13,7 @@ module.exports = {
 			'@semantic-release/npm',
 			{
 				tarballDir: 'dist',
-        "assets": ["package.json", "dist/**/*.js", "*.md"],
+				assets: ['package.json', 'dist/**/*.js', '*.md']
 			}
 		],
 		[
