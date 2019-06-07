@@ -21,7 +21,7 @@ export default [
 			file: 'dist/index.js',
 			format: 'cjs',
 			preferConst: true,
-			exports: 'default'
+			exports: 'named'
 		},
 		plugins
 	},
@@ -33,6 +33,7 @@ export default [
 			preferConst: true,
 			exports: 'named'
 		},
+		external: ['path'],
 		plugins
 	}
 ];
