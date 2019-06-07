@@ -18,7 +18,7 @@
     "lint:test": "xo",
     "lint:fix": "xo --fix",
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
-    "release": "echo \"Currently nothing to release\""
+    "release": "semantic-release"
   },
   "files": [
     "dist/**/*.js",
@@ -83,10 +83,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "eslint-plugin-vue": ">=7.12.3"
-  },
-  "dependencies": {
-    "eslint-config-xo": "^0.26.0",
-    "path": "^0.12.7"
+    "eslint-plugin-vue": ">=7.12.3",
+    "eslint-config-xo": "^0.26.0"
   }
 }
