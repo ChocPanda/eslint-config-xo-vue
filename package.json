@@ -21,9 +21,8 @@
     "release": "semantic-release"
   },
   "files": [
-    "dist/**/*.js",
-    "**/*.md",
-    "dist/**/*.d.ts"
+		"dist/index.js",
+		"dist/spaces.js"
   ],
   "engines": {
     "node": ">=6"
