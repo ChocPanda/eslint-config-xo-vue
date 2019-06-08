@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.4...v1.0.5) (2019-06-08)
+
+
+### Bug Fixes
+
+* Update rollup config to hopefully fix export ([fda7ed1](https://github.com/ChocPanda/eslint-config-xo-vue/commit/fda7ed1))
+
 ## [1.0.4](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.3...v1.0.4) (2019-06-08)
 
 
