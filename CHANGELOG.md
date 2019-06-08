@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.5...v1.0.6) (2019-06-08)
+
+
+### Bug Fixes
+
+* Fix exports config ([c583a4a](https://github.com/ChocPanda/eslint-config-xo-vue/commit/c583a4a))
+
 ## [1.0.5](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.4...v1.0.5) (2019-06-08)
 
 
