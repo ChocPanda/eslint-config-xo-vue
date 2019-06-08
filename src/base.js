@@ -209,6 +209,7 @@ module.exports = indent => ({
 		'vue/valid-v-once': ['error'],
 		'vue/valid-v-pre': ['error'],
 		'vue/valid-v-show': ['error'],
-		'vue/valid-v-text': ['error']
+		'vue/valid-v-text': ['error'],
+		'import/no-unresolved': ['webpack']
 	}
 });
