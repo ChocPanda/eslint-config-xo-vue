@@ -4,10 +4,12 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import license from 'rollup-plugin-license';
 import copy from 'rollup-plugin-copy';
+import peerDeps from 'rollup-plugin-peer-deps-external';
 
 const plugins = [
 	resolve(),
 	commonjs({ ignore: ['conditional-runtime-dependency'] }),
+	peerDeps(),
 	license({
 		banner: {
 			file: path.join(__dirname, 'LICENSE')
@@ -27,7 +29,6 @@ export default [
 			format: 'cjs',
 			preferConst: true
 		},
-		external: ['eslint-config-xo'],
 		plugins
 	},
 	{
@@ -37,7 +38,6 @@ export default [
 			format: 'cjs',
 			preferConst: true
 		},
-		external: ['eslint-config-xo'],
 		plugins
 	}
 ];
