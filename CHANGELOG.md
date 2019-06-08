@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.2...v1.0.3) (2019-06-08)
+
+
+### Bug Fixes
+
+* Remove main configuration from package.json to release spaces sub module ([005ef5d](https://github.com/ChocPanda/eslint-config-xo-vue/commit/005ef5d))
+
 ## [1.0.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.1...v1.0.2) (2019-06-08)
 
 
