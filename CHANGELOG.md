@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.6...v1.0.7) (2019-06-08)
+
+
+### Bug Fixes
+
+* Remove some unpublished configuration ([da144a5](https://github.com/ChocPanda/eslint-config-xo-vue/commit/da144a5))
+
 ## [1.0.6](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.5...v1.0.6) (2019-06-08)
 
 
