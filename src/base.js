@@ -63,7 +63,7 @@ module.exports = indent => ({
 			'error',
 			{
 				html: {
-					void: 'never',
+					void: 'always',
 					normal: 'always',
 					component: 'always'
 				},
@@ -177,7 +177,7 @@ module.exports = indent => ({
 			'error',
 			indent,
 			{
-				baseIndent: 1,
+				baseIndent: 0,
 				switchCase: 1
 			}
 		],
@@ -191,7 +191,7 @@ module.exports = indent => ({
 		],
 		'vue/space-infix-ops': xoConfigRules['space-infix-ops'],
 		'vue/space-unary-ops': xoConfigRules['space-unary-ops'],
-		'vue/this-in-template': ['error', 'always'],
+		'vue/this-in-template': ['error', 'never'],
 		'vue/use-v-on-exact': ['error'],
 		'vue/v-bind-style': ['error', 'shorthand'],
 		'vue/v-on-function-call': ['error', 'always'],

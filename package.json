@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xo-vue",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Unofficial ESLint shareable config for Vue to be used with eslint-config-xo https://github.com/xojs/xo",
   "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
   "author": "ChocPanda",
