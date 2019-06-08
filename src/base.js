@@ -15,6 +15,10 @@ module.exports = indent => ({
 	},
 	plugins: ['vue'],
 	rules: {
+		// 'vue/no-deprecated-scope-attribute': 'warn',
+		// 'vue/keyword-spacing': xoConfigRules['keyword-spacing'],
+		// 'vue/dot-location': xoConfigRules['dot-location'],
+		// 'vue/no-empty-pattern': xoConfigRules['no-empty-pattern'],
 		'vue/attribute-hyphenation': ['error', 'always'],
 		'vue/attributes-order': 'warn',
 		'vue/block-spacing': 'warn',
@@ -27,7 +31,6 @@ module.exports = indent => ({
 			'PascalCase',
 			{ registeredComponentsOnly: false }
 		],
-		'vue/dot-location': xoConfigRules['dot-location'],
 		'vue/eqeqeq': xoConfigRules.eqeqeq,
 		'vue/html-closing-bracket-newline': [
 			'error',
@@ -70,7 +73,6 @@ module.exports = indent => ({
 		],
 		'vue/jsx-uses-vars': ['error'],
 		'vue/key-spacing': xoConfigRules['key-spacing'],
-		'vue/keyword-spacing': xoConfigRules['keyword-spacing'],
 		'vue/match-component-file-name': [
 			'error',
 			{
@@ -104,7 +106,6 @@ module.exports = indent => ({
 				allowUsingIterationVar: false
 			}
 		],
-		'vue/no-deprecated-scope-attribute': 'warn',
 		'vue/no-dupe-keys': ['error'],
 		'vue/no-duplicate-attributes': [
 			'error',
@@ -113,7 +114,6 @@ module.exports = indent => ({
 				allowCoexistStyle: true
 			}
 		],
-		'vue/no-empty-pattern': xoConfigRules['no-empty-pattern'],
 		'vue/no-multi-spaces': xoConfigRules['no-multi-spaces'],
 		'vue/no-parsing-error': ['error'],
 		'vue/no-reserved-keys': ['error'],
@@ -130,11 +130,11 @@ module.exports = indent => ({
 				ignoreWhenBindingPresent: true
 			}
 		],
-		'vue/no-unused-vars': xoConfigRules['no-unused-vars'],
+		'vue/no-unused-vars': ['error'],
 		'vue/no-v-html': ['error'],
 		'vue/object-curly-spacing': xoConfigRules['object-curly-spacing'],
 		'vue/order-in-components': [
-			'warning',
+			'warn',
 			{
 				order: [
 					'el',

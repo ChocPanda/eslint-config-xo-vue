@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-xo-vue",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "Unofficial ESLint shareable config for Vue to be used with eslint-config-xo https://github.com/xojs/xo",
   "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
   "author": "ChocPanda",
+  "main": "src/index.js",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -82,8 +83,11 @@
     "xo": "^0.24.0"
   },
   "peerDependencies": {
-    "eslint": ">=5",
+    "eslint": ">=5.0.0",
     "eslint-config-xo": "^0.26.0",
     "eslint-plugin-vue": ">=7.12.3"
+  },
+  "dependencies": {
+    "vue-eslint-parser": "^6.0.4"
   }
 }
