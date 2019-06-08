@@ -89,6 +89,9 @@ You can also mix it with a [XO](https://github.com/xojs/xo) sub-config:
 }
 ```
 
+### WARNING
+
+When running eslint be sure to add the [--ext vue](https://eslint.org/docs/user-guide/configuring#specifying-file-extensions-to-lint) command line param
 
 ## Tip
 
@@ -106,7 +109,8 @@ $ yarn add --dev eslint-config-xo-vue eslint-plugin-vue
 {
 	"name": "my-awesome-project",
 	"xo": {
-		"extends": "xo-vue"
+		"extends": "xo-vue",
+		"extensions": ["js", "vue"]
 	}
 }
 ```
