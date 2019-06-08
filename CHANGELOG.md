@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.1...v1.0.2) (2019-06-08)
+
+
+### Bug Fixes
+
+* **build:** Add assets config in an attempt to fix build ([30f6aae](https://github.com/ChocPanda/eslint-config-xo-vue/commit/30f6aae))
+* travis config ([dfc8687](https://github.com/ChocPanda/eslint-config-xo-vue/commit/dfc8687))
+
 ## [1.0.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.0...v1.0.1) (2019-06-07)
 
 
