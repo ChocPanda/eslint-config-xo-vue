@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.3...v1.0.4) (2019-06-08)
+
+
+### Bug Fixes
+
+* **rollup:** Rollup, ignore common js conditional require ([86ec547](https://github.com/ChocPanda/eslint-config-xo-vue/commit/86ec547))
+
 ## [1.0.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.2...v1.0.3) (2019-06-08)
 
 
