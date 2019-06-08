@@ -2,7 +2,6 @@
   "name": "eslint-config-xo-vue",
   "version": "1.0.1",
   "description": "Unofficial ESLint shareable config for Vue to be used with eslint-config-xo https://github.com/xojs/xo",
-  "main": "index.js",
   "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
   "author": "ChocPanda",
   "license": "MIT",
@@ -21,8 +20,8 @@
     "release": "semantic-release"
   },
   "files": [
-    "dist/index.js",
-    "dist/spaces.js"
+    "index.js",
+    "spaces.js"
   ],
   "engines": {
     "node": ">=6"
