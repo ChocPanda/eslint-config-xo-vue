@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.7...v1.0.8) (2019-06-08)
+
+
+### Bug Fixes
+
+* Make changes for compatibility with prettier ([f2ffd5f](https://github.com/ChocPanda/eslint-config-xo-vue/commit/f2ffd5f))
+
 ## [1.0.7](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.6...v1.0.7) (2019-06-08)
 
 
