@@ -9,7 +9,8 @@
   "private": false,
   "scripts": {
     "commit": "git-cz",
-    "build": "rollup -c",
+		"build": "rollup -c",
+		"postpublish": "cp -r dist/package.json .",
     "test": "ava",
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
