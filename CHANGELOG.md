@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.8...v1.1.0) (2019-06-08)
+
+
+### Features
+
+* Add import configuration ([848dbde](https://github.com/ChocPanda/eslint-config-xo-vue/commit/848dbde))
+
 ## [1.0.8](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.7...v1.0.8) (2019-06-08)
 
 
