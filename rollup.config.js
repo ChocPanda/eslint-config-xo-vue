@@ -25,8 +25,7 @@ export default [
 		output: {
 			file: 'dist/index.js',
 			format: 'cjs',
-			preferConst: true,
-			exports: 'named'
+			preferConst: true
 		},
 		external: ['eslint-config-xo'],
 		plugins
@@ -36,8 +35,7 @@ export default [
 		output: {
 			file: 'dist/spaces.js',
 			format: 'cjs',
-			preferConst: true,
-			exports: 'named'
+			preferConst: true
 		},
 		external: ['eslint-config-xo'],
 		plugins
