@@ -152,8 +152,7 @@ the unicorn config. Fortunately as this configuration is based on xo you don't n
 			"error",
 			{
 				"whitelist": {
-					"props": true,
-					"assetsDir": true
+					"props": true
 				}
 			}
 		]
