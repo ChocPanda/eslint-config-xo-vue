@@ -7,7 +7,7 @@ import copy from 'rollup-plugin-copy';
 
 const plugins = [
 	resolve(),
-	commonjs(),
+	commonjs({ ignore: ['conditional-runtime-dependency'] }),
 	license({
 		banner: {
 			file: path.join(__dirname, 'LICENSE')
