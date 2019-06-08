@@ -28,6 +28,7 @@ export default [
 			preferConst: true,
 			exports: 'named'
 		},
+		external: ['eslint-config-xo'],
 		plugins
 	},
 	{
@@ -38,6 +39,7 @@ export default [
 			preferConst: true,
 			exports: 'named'
 		},
+		external: ['eslint-config-xo'],
 		plugins
 	}
 ];
