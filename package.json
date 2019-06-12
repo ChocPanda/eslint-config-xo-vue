@@ -60,7 +60,12 @@
     "simple"
   ],
   "xo": {
-    "prettier": "true"
+    "prettier": "true",
+    "rules": {
+      "unicorn/prevent-abbreviations": [
+        "off"
+      ]
+    }
   },
   "config": {
     "commitizen": {
@@ -84,9 +89,12 @@
     "xo": "^0.24.0"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0",
+    "eslint": ">=5",
     "eslint-config-xo": "^0.26.0",
     "eslint-plugin-vue": ">=7.12.3"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-unicorn": "^9.1.0"
   },
   "dependencies": {
     "vue-eslint-parser": "^6.0.4"
