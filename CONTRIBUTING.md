@@ -2,14 +2,14 @@
 
 First things first, thank you for your contribution. It's easy to forget to say but I, the other contributors and all the users value the contributions made to the library; small or large all contributions are valued and welcome.
 
-When contributing to this repository, please first discuss the change you wish to make via [github issues](https://github.com/ChocPanda/mambda/issues), maybe someone has the same idea as you and just up-voting would be a contribution towards prioritisation. You may also find the work has already begun and you can help by teaming up with another contributor.
+When contributing to this repository, please first discuss the change you wish to make via [github issues](https://github.com/ChocPanda/eslint-config-xo-vue/issues), maybe someone has the same idea as you and just up-voting would be a contribution towards prioritisation. You may also find the work has already begun and you can help by teaming up with another contributor.
 
 Please note we have a [code of conduct](#code-of-conduct), please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
-1. Checkout [github issues](https://github.com/ChocPanda/mambda/issues) to see if your request has already been made
-2. [Raise a bug](https://github.com/ChocPanda/mambda/issues/new?assignees=&labels=&template=bug_report.md&title=) or [feature request](https://github.com/ChocPanda/mambda/issues/new?assignees=&labels=&template=feature_request.md&title=) using the appropriate [template](https://github.com/ChocPanda/mambda/issues/new/choose).
+1. Checkout [github issues](https://github.com/ChocPanda/eslint-config-xo-vue/issues) to see if your request has already been made
+2. [Raise a bug](https://github.com/ChocPanda/eslint-config-xo-vue/issues/new?assignees=&labels=&template=bug_report.md&title=) or [feature request](https://github.com/ChocPanda/eslint-config-xo-vue/issues/new?assignees=&labels=&template=feature_request.md&title=) using the appropriate [template](https://github.com/ChocPanda/eslint-config-xo-vue/issues/new/choose).
 3. Assign the task to yourself so we know your working on it, and can pitch in.
 4. Create a branch, and make it happen :persevere:
    - Ensure you're branch is appropriately tested, `yarn run test` or `yarn run test:report` to get coverage data
@@ -17,7 +17,7 @@ Please note we have a [code of conduct](#code-of-conduct), please follow it in a
 5. Update the README.md with details of the changes.
 6. Ensure you're using our [convential commits](./README.md#conventional-commits) for your commit messages
 7. Versioning and tagging are handled by Circle ci so no need to manually do anything there for the release
-8. [RAISE THE PR](https://github.com/ChocPanda/mambda/compare)
+8. [RAISE THE PR](https://github.com/ChocPanda/eslint-config-xo-vue/compare)
 9. You may merge the Pull Request in once you have the sign-off, or if you do not have permission to do that just poke the author.
 
 ## Code of Conduct
