@@ -9,8 +9,8 @@
   "private": false,
   "scripts": {
     "commit": "git-cz",
-		"build": "rollup -c",
-		"postpublish": "cp -r dist/package.json .",
+    "build": "rollup -c",
+    "postpublish": "cp -r dist/package.json .",
     "test": "ava",
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
@@ -60,12 +60,24 @@
     "simple"
   ],
   "xo": {
-    "prettier": "true"
+    "prettier": "true",
+    "rules": {
+      "unicorn/prevent-abbreviations": [
+        "warn",
+        {
+          "replacements": {
+            "src": false,
+            "dest": false,
+            "env": false,
+            "tarballDir": false,
+            "pkgRoot": false
+          }
+        }
+      ]
+    }
   },
   "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "path": "./node_modules/cz-conventional-changelog"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
