@@ -9,8 +9,8 @@
   "private": false,
   "scripts": {
     "commit": "git-cz",
-		"build": "rollup -c",
-		"postpublish": "cp -r dist/package.json .",
+    "build": "rollup -c",
+    "postpublish": "cp -r dist/package.json .",
     "test": "ava",
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
@@ -60,12 +60,24 @@
     "simple"
   ],
   "xo": {
-    "prettier": "true"
+    "prettier": "true",
+    "rules": {
+      "unicorn/prevent-abbreviations": [
+        "warn",
+        {
+          "replacements": {
+            "src": false,
+            "dest": false,
+            "env": false,
+            "tarballDir": false,
+            "pkgRoot": false
+          }
+        }
+      ]
+    }
   },
   "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "path": "./node_modules/cz-conventional-changelog"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.2",
@@ -76,7 +88,7 @@
     "nyc": "^14.1.1",
     "rollup": "^1.14.3",
     "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-copy": "^2.0.1",
+    "rollup-plugin-copy": "^3.0.0",
     "rollup-plugin-license": "^0.9.0",
     "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",

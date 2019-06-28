@@ -16,7 +16,11 @@ const plugins = [
 		}
 	}),
 	copy({
-		targets: ['package.json', 'README.md', 'CHANGELOG.md'],
+		targets: [
+			{ src: 'package.json', dest: 'dist/' },
+			{ src: 'README.md', dest: 'dist/' },
+			{ src: 'CHANGELOG.md', dest: 'dist/' }
+		],
 		outputFolder: 'dist'
 	})
 ];
