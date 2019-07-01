@@ -98,11 +98,11 @@ When running eslint be sure to add the [--ext vue](https://eslint.org/docs/user-
 ### Use with XO
 
 ```
-$ npm install --save-dev eslint-config-xo-vue eslint-plugin-vue
+$ npm install --save-dev xo eslint-config-xo-vue eslint-plugin-vue
 ```
 
 ```
-$ yarn add --dev eslint-config-xo-vue eslint-plugin-vue
+$ yarn add --dev xo eslint-config-xo-vue eslint-plugin-vue
 ```
 
 ```json
