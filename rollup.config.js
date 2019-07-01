@@ -25,6 +25,10 @@ const plugins = [
 	})
 ];
 
+const external = ["eslint",
+"eslint-config-xo",
+"eslint-plugin-vue", "eslint-plugin-unicorn"]
+
 export default [
 	{
 		input: 'src/index.js',
@@ -33,6 +37,7 @@ export default [
 			format: 'cjs',
 			preferConst: true
 		},
+		external,
 		plugins
 	},
 	{
@@ -42,6 +47,7 @@ export default [
 			format: 'cjs',
 			preferConst: true
 		},
+		external,
 		plugins
 	}
 ];

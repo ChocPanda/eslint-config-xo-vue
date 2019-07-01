@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xo-vue",
-  "version": "1.0.7",
+  "version": "1.1.1",
   "description": "Unofficial ESLint shareable config for Vue to be used with eslint-config-xo https://github.com/xojs/xo",
   "repository": "https://github.com/ChocPanda/eslint-config-xo-vue",
   "author": "ChocPanda",
@@ -10,7 +10,7 @@
   "scripts": {
     "commit": "git-cz",
     "build": "rollup -c",
-    "postpublish": "cp -r dist/package.json .",
+    "postpublish": "cp -r package.json ..",
     "test": "ava",
     "test:unit": "ava",
     "test:cov": "nyc ava && nyc report",
@@ -19,7 +19,8 @@
     "lint:test": "xo",
     "lint:fix": "xo --fix",
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "clean": "rimraf dist"
   },
   "files": [
     "index.js",
@@ -86,6 +87,7 @@
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
     "nyc": "^14.1.1",
+    "rimraf": "^2.6.3",
     "rollup": "^1.14.3",
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-copy": "^3.0.0",
