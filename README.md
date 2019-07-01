@@ -117,48 +117,7 @@ $ yarn add --dev eslint-config-xo-vue eslint-plugin-vue
 
 ## Known Issues
 
-### unicorn/filename-case
-
-XO currently doesn't depend on the latest version of the `eslint-plugin-unicorn` and therefore [in my
-own projects](https://github.com/ChocPanda/cat-pun/blob/master/packages/client/admin/package.json) I
-have a direct dependency on it so I can use the new cases configuration to use pascal case for my components
-and kebab case for my other JS files in the `package.json`.
-
-```json
-"xo": {
-	"rules": {
-		"unicorn/filename-case": [
-			"warn",
-			{
-				"cases": {
-					"pascalCase": true,
-					"kebabCase": true
-				}
-			}
-		]
-	}
-}
-```
-### unicorn/prevent-abbreviations - component props
-
-This library doesn't force you to use XO (Despite how strongly I advise you do), therefore I don't setup
-the unicorn config. Fortunately as this configuration is based on xo you don't need to override much. Just add
-`props` to the whitelist of abbreviations in your `package.json`.
-
-```json
-"xo": {
-	"rules": {
-		"unicorn/prevent-abbreviations": [
-			"error",
-			{
-				"whitelist": {
-					"props": true
-				}
-			}
-		]
-	}
-}
-```
+Hoping you'll report any you find, checkout [github issues](https://github.com/ChocPanda/eslint-config-xo-vue/issues)
 
 ## Related
 
