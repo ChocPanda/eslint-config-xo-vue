@@ -31,6 +31,8 @@
 
 ## Install
 
+To use with an eslint:
+
 ```
 $ npm install --save-dev eslint-config-xo eslint-config-xo-vue eslint-plugin-vue
 ```
@@ -39,6 +41,7 @@ $ npm install --save-dev eslint-config-xo eslint-config-xo-vue eslint-plugin-vue
 $ yarn add --dev eslint-config-xo eslint-config-xo-vue eslint-plugin-vue
 ```
 
+I recommend using with [xo](#Use-with-XO)
 
 ## Usage
 
