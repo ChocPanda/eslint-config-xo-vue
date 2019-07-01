@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.1.0...v1.1.1) (2019-07-01)
+
+
+### Bug Fixes
+
+* Add eslint-plugin-unicorn as an optional dependency and add configuration for vue ([d5a2423](https://github.com/ChocPanda/eslint-config-xo-vue/commit/d5a2423))
+
 # [1.1.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.0.8...v1.1.0) (2019-06-08)
 
 
