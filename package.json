@@ -66,12 +66,14 @@
       "unicorn/prevent-abbreviations": [
         "warn",
         {
-          "replacements": {
-            "src": false,
-            "dest": false,
-            "env": false,
-            "tarballDir": false,
-            "pkgRoot": false
+          "whitelist": {
+            "src": true,
+            "dest": true,
+            "env": true,
+            "props": true,
+            "assetsDir": true,
+            "tarballDir": true,
+            "pkgRoot": true
           }
         }
       ]

@@ -25,9 +25,12 @@ const plugins = [
 	})
 ];
 
-const external = ["eslint",
-"eslint-config-xo",
-"eslint-plugin-vue", "eslint-plugin-unicorn"]
+const external = [
+	'eslint',
+	'eslint-config-xo',
+	'eslint-plugin-vue',
+	'eslint-plugin-unicorn'
+];
 
 export default [
 	{
