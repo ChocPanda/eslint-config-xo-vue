@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.1.1...v2.0.0) (2019-07-01)
+
+
+### Build System
+
+* Update rollup config ([4b61c6b](https://github.com/ChocPanda/eslint-config-xo-vue/commit/4b61c6b))
+
+
+### BREAKING CHANGES
+
+* Update output to remove cache prevention
+
 ## [1.1.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v1.1.0...v1.1.1) (2019-07-01)
 
 
