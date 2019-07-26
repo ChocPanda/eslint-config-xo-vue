@@ -86,8 +86,8 @@
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
     "ava": "^2.0.0",
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
+    "cz-conventional-changelog": "^3.0.0",
+    "commitizen": "^4.0.0",
     "nyc": "^14.1.1",
     "rimraf": "^2.6.3",
     "rollup": "^1.14.3",
@@ -104,10 +104,8 @@
     "eslint-config-xo": "^0.26.0",
     "eslint-plugin-vue": ">=7.12.3"
   },
-  "optionalDependencies": {
-    "eslint-plugin-unicorn": "^9.1.0"
-  },
   "dependencies": {
+    "eslint-plugin-unicorn": "^10.0.0",
     "vue-eslint-parser": "^6.0.4"
   }
 }
