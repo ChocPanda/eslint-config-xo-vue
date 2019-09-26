@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v2.0.1...v2.0.2) (2019-07-26)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-unicorn to version 10.0.0 ([6e339ae](https://github.com/ChocPanda/eslint-config-xo-vue/commit/6e339ae))
+
 ## [2.0.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v2.0.0...v2.0.1) (2019-07-13)
 
 
