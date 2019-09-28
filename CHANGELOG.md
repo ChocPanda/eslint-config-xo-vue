@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v2.0.3...v3.0.0) (2019-09-28)
+
+
+* build: ([2870818](https://github.com/ChocPanda/eslint-config-xo-vue/commit/2870818))
+
+
+### BREAKING CHANGES
+
+* Update output to remove cache prevention
+
 ## [2.0.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v2.0.2...v2.0.3) (2019-09-26)
 
 
