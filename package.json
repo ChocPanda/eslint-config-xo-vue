@@ -97,7 +97,7 @@
     "rollup-plugin-node-resolve": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "semantic-release": "^15.13.12",
-    "xo": "^0.24.0"
+    "xo": "^0.25.3"
   },
   "peerDependencies": {
     "eslint": ">=5",

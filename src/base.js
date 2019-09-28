@@ -243,7 +243,9 @@ module.exports = indent => {
 				]
 			}
 		};
-	} catch (error) {}
+	} catch (error) {
+		console.log('eslint-plugin-unicorn is unavailable', error);
+	}
 
 	return defaultConfig;
 };
