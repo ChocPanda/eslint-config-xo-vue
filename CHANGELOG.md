@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.0...v3.0.1) (2019-11-08)
+
+
+### Bug Fixes
+
+* **package:** Fix peer dependency for eslint-plugin-vue and import/no-unresolved misconfiguration ([f379287](https://github.com/ChocPanda/eslint-config-xo-vue/commit/f379287))
+
 # [3.0.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v2.0.3...v3.0.0) (2019-09-28)
 
 
