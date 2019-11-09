@@ -106,6 +106,6 @@
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^12.0.1",
-    "vue-eslint-parser": "^6.0.4"
+    "vue-eslint-parser": "^7.0.0"
   }
 }
