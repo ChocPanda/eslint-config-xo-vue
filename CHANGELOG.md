@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.1...v3.0.2) (2019-11-10)
+
+
+### Bug Fixes
+
+* **package:** update vue-eslint-parser to version 7.0.0 ([38c11b2](https://github.com/ChocPanda/eslint-config-xo-vue/commit/38c11b2))
+
 ## [3.0.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.0...v3.0.1) (2019-11-08)
 
 
