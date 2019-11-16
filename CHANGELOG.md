@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.2...v3.0.3) (2019-11-16)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-unicorn to version 13.0.0 ([158da45](https://github.com/ChocPanda/eslint-config-xo-vue/commit/158da45))
+
 ## [3.0.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.1...v3.0.2) (2019-11-10)
 
 
