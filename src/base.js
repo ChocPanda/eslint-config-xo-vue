@@ -16,10 +16,6 @@ module.exports = indent => {
 		},
 		plugins: ['vue'],
 		rules: {
-			// 'vue/no-deprecated-scope-attribute': 'warn',
-			// 'vue/keyword-spacing': xoConfigRules['keyword-spacing'],
-			// 'vue/dot-location': xoConfigRules['dot-location'],
-			// 'vue/no-empty-pattern': xoConfigRules['no-empty-pattern'],
 			'vue/attribute-hyphenation': ['error', 'always'],
 			'vue/attributes-order': 'warn',
 			'vue/block-spacing': 'warn',
@@ -32,6 +28,7 @@ module.exports = indent => {
 				'PascalCase',
 				{ registeredComponentsOnly: false }
 			],
+			'vue/dot-location': xoConfigRules['dot-location'],
 			'vue/eqeqeq': xoConfigRules.eqeqeq,
 			'vue/html-closing-bracket-newline': [
 				'error',
@@ -74,6 +71,7 @@ module.exports = indent => {
 			],
 			'vue/jsx-uses-vars': ['error'],
 			'vue/key-spacing': xoConfigRules['key-spacing'],
+			'vue/keyword-spacing': xoConfigRules['keyword-spacing'],
 			'vue/match-component-file-name': [
 				'error',
 				{
@@ -101,6 +99,8 @@ module.exports = indent => {
 			'vue/name-property-casing': ['error', 'PascalCase'],
 			'vue/no-async-in-computed-properties': ['error'],
 			'vue/no-boolean-default': ['error', 'no-default'],
+			'vue/no-deprecated-scope-attribute': 'warn',
+			'vue/no-empty-pattern': xoConfigRules['no-empty-pattern'],
 			'vue/no-use-v-if-with-v-for': [
 				'error',
 				{
@@ -210,6 +210,8 @@ module.exports = indent => {
 			'vue/valid-v-once': ['error'],
 			'vue/valid-v-pre': ['error'],
 			'vue/valid-v-show': ['error'],
+			'vue/valid-v-slot': ['error'],
+			'vue/v-slot-style': ['warn'],
 			'vue/valid-v-text': ['error'],
 			'import/no-unresolved': ['error']
 		}
