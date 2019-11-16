@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.3...v3.1.0) (2019-11-16)
+
+
+### Features
+
+* **rules:** update to eslint-plugin-vue version 6.0.1 ([60d6d42](https://github.com/ChocPanda/eslint-config-xo-vue/commit/60d6d42))
+
 ## [3.0.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.0.2...v3.0.3) (2019-11-16)
 
 
