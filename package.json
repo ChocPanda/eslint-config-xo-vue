@@ -99,7 +99,7 @@
     "rollup-plugin-license": "^0.13.0",
     "rollup-plugin-node-resolve": "^5.0.3",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "semantic-release": "^15.13.12",
+    "semantic-release": "^16.0.0",
     "xo": "^0.25.3"
   },
   "peerDependencies": {
