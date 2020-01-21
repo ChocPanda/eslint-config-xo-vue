@@ -1,7 +1,7 @@
 import path from 'path';
 
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import license from 'rollup-plugin-license';
 import copy from 'rollup-plugin-copy';
 import peerDeps from 'rollup-plugin-peer-deps-external';
