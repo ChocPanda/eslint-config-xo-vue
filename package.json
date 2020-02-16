@@ -100,7 +100,7 @@
     "rollup-plugin-license": "^0.13.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "semantic-release": "^17.0.2",
-    "xo": "^0.25.3"
+    "xo": "^0.26.1"
   },
   "peerDependencies": {
     "eslint": ">=5",
