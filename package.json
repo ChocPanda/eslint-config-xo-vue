@@ -20,7 +20,7 @@
     "lint:fix": "xo --fix",
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
     "release": "semantic-release",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist && rimraf node_modules"
   },
   "files": [
     "index.js",
@@ -76,7 +76,11 @@
             "pkgRoot": true
           }
         }
-      ]
+			],
+			"node/no-unsupported-features/es-syntax": ["error", {
+        "version": "8.3",
+        "ignores": []
+    }]
     }
   },
   "config": {
