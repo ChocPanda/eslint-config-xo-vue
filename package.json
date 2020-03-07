@@ -27,7 +27,7 @@
     "spaces.js"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=10"
   },
   "keywords": [
     "❤️",
@@ -76,11 +76,7 @@
             "pkgRoot": true
           }
         }
-			],
-			"node/no-unsupported-features/es-syntax": ["error", {
-        "version": "8.3",
-        "ignores": []
-    }]
+			]
     }
   },
   "config": {
