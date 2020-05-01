@@ -20,7 +20,9 @@
     "lint:fix": "xo --fix",
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
     "release": "semantic-release",
-    "clean": "rimraf dist && rimraf node_modules"
+    "clean": "rimraf dist && rimraf node_modules",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "files": [
     "index.js",
@@ -76,7 +78,7 @@
             "pkgRoot": true
           }
         }
-			]
+      ]
     }
   },
   "config": {
@@ -109,6 +111,8 @@
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^16.1.1",
-    "vue-eslint-parser": "^7.0.0"
-  }
+    "vue-eslint-parser": "^7.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
