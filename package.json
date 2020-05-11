@@ -88,10 +88,10 @@
     }
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
     "ava": "^3.5.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "3.1.0",
@@ -111,8 +111,8 @@
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^16.1.1",
-    "vue-eslint-parser": "^7.0.0",
-    "snyk": "^1.316.1"
+    "snyk": "^1.320.2",
+    "vue-eslint-parser": "^7.0.0"
   },
   "snyk": true
 }

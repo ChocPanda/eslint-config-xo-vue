@@ -1,8 +1,217 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.14.1
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-ACORN-559469:
+    - eslint-plugin-unicorn > eslint-template-visitor > espree > acorn:
+        reason: No patch availablle
+        expires: '2020-06-10T22:20:12.152Z'
+  SNYK-JS-BINLINKS-537608:
+    - bin-links:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+  SNYK-JS-MINIMIST-559764:
+    - bin-links > gentle-fs > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - gentle-fs > cmd-shim > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libcipm > pacote > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libnpm > pacote > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libcipm > bin-links > cmd-shim > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libnpm > bin-links > cmd-shim > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libcipm > bin-links > gentle-fs > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libnpm > bin-links > gentle-fs > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libnpm > pacote > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.152Z'
+    - libnpm > pacote > tar > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > npm-lifecycle > node-gyp > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-lifecycle > node-gyp > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > tar > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > npm-lifecycle > node-gyp > tar > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-lifecycle > node-gyp > tar > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > npm-registry-fetch > make-fetch-happen > cacache > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > pacote > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libcipm > pacote > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.153Z'
+    - libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > pacote > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libcipm > pacote > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpm > pacote > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libcipm > pacote > npm-registry-fetch > make-fetch-happen > cacache > move-concurrently > copy-concurrently > mkdirp > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpx > update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-auth-token > rc > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - libnpx > update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+    - snyk > @snyk/update-notifier > latest-version > package-json > registry-url > rc > minimist:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+  SNYK-JS-YARGSPARSER-560381:
+    - libnpx > yargs > yargs-parser:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
+  'npm:mem:20180117':
+    - libnpx > yargs > os-locale > mem:
+        reason: None given
+        expires: '2020-06-10T22:20:12.154Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-567746:
     - vue-eslint-parser > lodash:
-        patched: '2020-05-01T05:21:24.039Z'
+        patched: '2020-05-11T22:16:21.114Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2020-05-11T22:16:21.114Z'
+    - libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2020-05-11T22:16:21.114Z'
