@@ -1,3 +1,11 @@
+## [3.1.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.1...v3.1.2) (2020-05-13)
+
+
+### Bug Fixes
+
+* .snyk & package.json to reduce vulnerabilities ([296559b](https://github.com/ChocPanda/eslint-config-xo-vue/commit/296559b))
+* .snyk & package.json to reduce vulnerabilities ([a136aaf](https://github.com/ChocPanda/eslint-config-xo-vue/commit/a136aaf))
+
 ## [3.1.1](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.0...v3.1.1) (2020-02-15)
 
 
