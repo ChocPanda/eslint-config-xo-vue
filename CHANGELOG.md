@@ -1,3 +1,11 @@
+## [3.1.3](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.2...v3.1.3) (2020-05-17)
+
+
+### Bug Fixes
+
+* upgrade vue-eslint-parser from 7.0.0 to 7.1.0 ([d23a870](https://github.com/ChocPanda/eslint-config-xo-vue/commit/d23a870))
+* upgrade vue-eslint-parser from 7.0.0 to 7.1.0 ([7bdc671](https://github.com/ChocPanda/eslint-config-xo-vue/commit/7bdc671))
+
 ## [3.1.2](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.1...v3.1.2) (2020-05-13)
 
 
