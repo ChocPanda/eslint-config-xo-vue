@@ -1,3 +1,10 @@
+## [3.1.19](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.18...v3.1.19) (2020-07-04)
+
+
+### Bug Fixes
+
+* upgrade snyk from 1.355.0 to 1.359.0 ([fa304e2](https://github.com/ChocPanda/eslint-config-xo-vue/commit/fa304e2))
+
 ## [3.1.18](https://github.com/ChocPanda/eslint-config-xo-vue/compare/v3.1.17...v3.1.18) (2020-07-02)
 
 
