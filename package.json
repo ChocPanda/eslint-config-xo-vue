@@ -110,7 +110,7 @@
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^16.1.1",
-    "snyk": "^1.361.3",
+    "snyk": "^1.362.0",
     "vue-eslint-parser": "^7.1.0"
   },
   "snyk": true
