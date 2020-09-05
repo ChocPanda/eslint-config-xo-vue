@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.19.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-ACORN-559469:
@@ -210,6 +210,12 @@ patch:
   SNYK-JS-LODASH-567746:
     - vue-eslint-parser > lodash:
         patched: '2020-05-11T22:16:21.114Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-05T19:39:34.260Z'
+    - snyk > snyk-cpp-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-05T19:39:34.260Z'
+    - snyk > snyk-gradle-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-05T19:39:34.260Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
         patched: '2020-05-11T22:16:21.114Z'
