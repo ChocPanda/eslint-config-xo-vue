@@ -21,7 +21,8 @@
     "lint:report": "xo --reporter junit > ./reports/xo/test-results.xml",
     "release": "semantic-release",
     "clean": "rimraf dist && rimraf node_modules",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "files": [
     "index.js",
@@ -110,7 +111,7 @@
   },
   "dependencies": {
     "eslint-plugin-unicorn": "^16.1.1",
-    "snyk": "^1.388.0",
+    "snyk": "^1.389.0",
     "vue-eslint-parser": "^7.1.0"
   },
   "snyk": true
