@@ -218,6 +218,26 @@ patch:
         patched: '2020-09-05T19:39:34.260Z'
     - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > graphlib > lodash:
         patched: '2020-09-09T07:00:27.186Z'
+    - snyk > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-go-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-php-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-gradle-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
+    - snyk > snyk-mvn-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-09-17T05:21:18.954Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
         patched: '2020-05-11T22:16:21.114Z'
