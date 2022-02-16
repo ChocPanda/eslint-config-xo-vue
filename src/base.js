@@ -4,6 +4,7 @@ module.exports = indent => {
 	const defaultConfig = {
 		parser: require.resolve('vue-eslint-parser'),
 		parserOptions: {
+			parser: require.resolve('@typescript-eslint/parser'),
 			ecmaVersion: 2018,
 			sourceType: 'module',
 			ecmaFeatures: {
@@ -82,11 +83,14 @@ module.exports = indent => {
 			'vue/max-attributes-per-line': [
 				'error',
 				{
-					singleline: 3,
-					multiline: {
-						max: 1,
-						allowFirstLine: false
-					}
+					singleline: { max: 3 },
+					multiline: { max: 1 }
+				}
+			],
+			'vue/first-attribute-linebreak': [
+				'error',
+				{
+					multiline: 'below'
 				}
 			],
 			'vue/multiline-html-element-content-newline': [
@@ -228,7 +232,7 @@ module.exports = indent => {
 				'unicorn/prevent-abbreviations': [
 					'error',
 					{
-						whitelist: {
+						allowList: {
 							props: true,
 							assetsDir: true
 						}
