@@ -101,7 +101,7 @@
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-license": "^0.13.0",
     "rollup-plugin-peer-deps-external": "^2.2.2",
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^19.0.3",
     "xo": "^0.27.2"
   },
   "peerDependencies": {
